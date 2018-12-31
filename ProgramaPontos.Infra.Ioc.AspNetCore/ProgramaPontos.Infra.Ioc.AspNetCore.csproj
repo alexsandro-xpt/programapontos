@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="6.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProgramaPontos.Application.CommandStack.CommandHandler\ProgramaPontos.Application.CommandStack.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Application\ProgramaPontos.Application.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Domain.Core\ProgramaPontos.Domain.Core.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Domain\ProgramaPontos.Domain.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Infra.Bus.EventBusRabbitMQ\ProgramaPontos.Infra.Bus.EventBusRabbitMQ.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Infra.EventStore.MongoDB\ProgramaPontos.Infra.EventStore.MongoDB.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.Infra.Repository\ProgramaPontos.Infra.Repository.csproj" />
+    <ProjectReference Include="..\ProgramaPontos.ReadModel.ElasticSearch\ProgramaPontos.ReadModel.ElasticSearch.csproj" />
+  </ItemGroup>
+
+</Project>
