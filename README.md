@@ -8,5 +8,6 @@ Nesta aplicação está sendo utilizado
 <li><b>RabbitMQ</b> como serviço de mensageria</li>
 <li><b>Elastic Search</b> como base leitura (Read Model)</li>
 <li><b>MongoDB</b> como EventStore</li>
+</ul>
 
-O arquivo docker\run_containers.bat cria todos os containers necessário para executar a aplicação.
+O arquivo <a href="https://github.com/patrickreinan/programapontos/blob/master/docker/run_containers.bat">docker\run_containers.bat</a> cria todos os containers necessário para executar a aplicação.
